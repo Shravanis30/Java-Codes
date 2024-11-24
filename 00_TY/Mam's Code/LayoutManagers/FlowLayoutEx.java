@@ -1,4 +1,3 @@
-package LayoutManagers;
 import javax.swing.*;
 import java.awt.*;
 public class FlowLayoutEx extends JFrame{
@@ -22,7 +21,7 @@ public class FlowLayoutEx extends JFrame{
 //        FlowLayout f=new FlowLayout(FlowLayout.LEFT);
 
         //to set horizontal and vertical gap 10 is hgap,20 is vgap
-        FlowLayout f=new FlowLayout(FlowLayout.LEFT,10,20);
+        FlowLayout f=new FlowLayout(FlowLayout.CENTER,10,20);
 
         //another way to set hgap and vgap
 //        f.setHgap(10);

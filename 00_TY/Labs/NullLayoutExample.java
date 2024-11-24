@@ -8,11 +8,11 @@ public class NullLayoutExample extends JFrame {
         Container c=getContentPane();
         c.setLayout(null);
 
-        JButton b1=new JButton("Button1");
-        JButton b2=new JButton("Button2");
-        JButton b3=new JButton("Button3");
-        JButton b4=new JButton("Button4");
-        JButton b5=new JButton("Button5");
+        JButton b1=new JButton("Btn1");
+        JButton b2=new JButton("Btn2");
+        JButton b3=new JButton("Btn3");
+        JButton b4=new JButton("Btn4");
+        JButton b5=new JButton("Btn5");
 
         b1.setBounds(20,20,80,30);
         b2.setBounds(120,20,80,30);

@@ -30,7 +30,7 @@ public class UiElements extends Frame implements ActionListener {
 
         List l1=new List(3,true);
         l1.add("CS"); l1.add("IT"); l1.add("chem");
-        l1.setBounds(50,350,50,50);
+        l1.setBounds(50,350,100,100);
         add(l1);
 
         Choice c=new Choice();

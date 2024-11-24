@@ -1,7 +1,9 @@
 import java.awt.*;
 import java.awt.event.*;
+
 class Lec1 extends Frame implements ActionListener{
     Lec1() {
+
         setSize(800, 800);
         setLayout(null);
         setVisible(true);
@@ -56,6 +58,7 @@ class Lec1 extends Frame implements ActionListener{
         MenuBar M1 = new MenuBar();
         setMenuBar(M1);
         Menu File = new Menu("File");
+        // MenuItem I1, I2;
         File.add(new MenuItem("New"));
         File.add(new MenuItem("Open"));
         M1.add(File);
